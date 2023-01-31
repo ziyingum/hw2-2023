@@ -19,24 +19,20 @@ body {
   img{
     display: block;
     width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: dashed;
-    border-width: 10px;
+    margin: auto;
+    border: 10px dashed white;
+  }
+
+  body div{
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid white;
   }
 
   p {
     font-size: 24px;
     padding-left: 10px;
     padding-top: 10px;
-  }
-
-  div{
-    height:auto;
-    min-height:125px;
-    padding: 20px;
-    border-style: solid;
-    border-width: 3px;
   }
 
   .introduction{
@@ -49,30 +45,29 @@ body {
     background: #ff0000;
     margin-left: 50px;
     text-align: right;
-    border-bottom: 2px solid;
-    border-left: 5px solid;
+    border: 0px 0px 2px 5px solid #FFFFFF;
   }
 
   .blue{
     background: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid;
-    border-top: 2px solid;
-    color: #C4C4C4;
+    border: 2px 5px 0px 0px solid;
   }
 
-  .blue h2 {
+  .blue h2, .blue p {
     color: #C4C4C4;
-  }
+ }
  
 
   .yellow{
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid;
-    border-left: 5px solid;
+    border: 0px 0px 2px 5px solid;
+    }
+
+  .yellow p {
     color: #707070;
   }
 
@@ -80,8 +75,7 @@ body {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid;
-    border-top: 2px solid;
+    border-width: 2px 5px 0px 0px ;
   }
 
   footer {
