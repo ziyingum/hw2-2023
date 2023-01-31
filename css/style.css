@@ -2,64 +2,64 @@ body {
     background-color: #000000;
     font-family: "Arial", Verdana;
     color: #FFFFFF;
-    margin: 20px 20px 0px 20px;
+    margin: 20px 20px 0px 20px!important; 
   }
 
   h1 {
-    padding: 15px;
-    font-size: 42px;
-    text-align: center;
+    padding: 15px!important;
+    font-size: 42px!important;
+    text-align: center!important;
   }
 
   h2{
-    color:#0D0D0D;
-    font-size: 30px;
+    color:#0D0D0D!important;
+    font-size: 30px!important;
   }
 
   img{
-    display: block;
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: dashed;
-    border-width: 10px;
+    display: block!important;
+    width: 250px!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    border-style: dashed!important;
+    border-width: 10px!important;
   }
 
   p {
-    font-size: 24px;
-    padding-left: 10px;
-    padding-top: 10px;
+    font-size: 24px!important;
+    padding-left: 10px!important;
+    padding-top: 10px!important;
   }
 
   div{
-    height:auto;
-    min-height:125px;
-    padding: 20px;
-    border-style: solid;
-    border-width: 3px;
+    height:auto!important;
+    min-height:125px!important;
+    padding: 20px!important;
+    border-style: solid!important;
+    border-width: 3px!important;
   }
 
   .introduction{
-    border-radius: 15px;
-    margin-top: 15px;
-    line-height: 2 ;
+    border-radius: 15px!important;
+    margin-top: 15px!important;
+    line-height: 2 !important;
   }
 
   .red{
-    background: #ff0000;
-    margin-left: 50px;
-    text-align: right;
-    border-bottom: 2px solid;
-    border-left: 5px solid;
+    background: #ff0000!important;
+    margin-left: 50px!important;
+    text-align: right!important;
+    border-bottom: 2px solid!important;
+    border-left: 5px solid!important;
   }
 
   .blue{
-    background: #0000FF;
-    text-align: left;
-    margin-right: 50px;
-    border-right: 5px solid;
-    border-top: 2px solid;
-    color: #C4C4C4;
+    background: #0000FF!important;
+    text-align: left!important;
+    margin-right: 50px!important;
+    border-right: 5px solid!important;
+    border-top: 2px solid!important;
+    color: #C4C4C4!important;
   }
 
   .blue h2 {
